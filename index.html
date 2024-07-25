@@ -38,7 +38,7 @@
         async function fetchData() {
             const apiKey = 'AIzaSyCUCWZIfocnjgWSEyrFq19_VrGSepM_NwE';
             const spreadsheetId = '1lRCfBcVjQ05N4vGAUvPMP9QY8GPFAVdyRyXYg3pT6f4';
-            const range = 'Registrations!1:166'; // "Email Address" is in column B of the "Registrations" sheet
+            const range = 'Registrations!B:B'; // "Email Address" is in column B of the "Registrations" sheet
 
             const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
